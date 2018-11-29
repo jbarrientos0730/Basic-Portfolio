@@ -4,6 +4,7 @@ body{
     color: #cccccc;
     background: #efefef;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: url("../Images/background.png");
 }
 
 .nav{
@@ -19,7 +20,7 @@ a, .name{
 .name{
     background: #4aaaa5;
     color: #ffffff;
-    padding: 26px;
+    padding: 25px;
 }
 
 .container{
@@ -82,15 +83,34 @@ figure{
     float: left;
     height: 300px;
     width: 300px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     color: #ffffff;
-    background: peru;
     font-family: serif;
     text-align: center;
+    background: peru;
 }
 
 h2{
     background-color: #4aaaa5;
     border: #666666 1px solid;
+}
 
+.tile-1{
+    background: url("../Images/hangman.png");
+}
+
+.tile-2{
+    background: url("../Images/rpg.png");
+}
+
+.tile-3{
+    background: url("../Images/trivia.png");
+}
+
+.tile-4{
+    background: url("../Images/rutgers.png");
+}
+
+.tile-5{
+    background: url("../Images/rock.png");
 }
