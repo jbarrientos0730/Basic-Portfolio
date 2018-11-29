@@ -2,7 +2,7 @@ body{
     width: 960px;
     margin: 0 260px;
     color: #cccccc;
-    background: lightgray;
+    background: url("connectwork.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;  
 }
 
@@ -10,6 +10,7 @@ body{
     background: #ffffff;
     padding: 25px;
     border-bottom: #cccccc 2px solid;
+    box-sizing: content-box;
 }
 
 a, .name{
@@ -52,4 +53,20 @@ footer{
     border-top: #4aaaa5 4px solid;
     padding: 30px;
     text-align: center
+}
+
+form{
+    width: 960;
+}
+
+.subnav1{
+    float: left;
+}
+
+.subnav2{
+    float: right;
+}
+
+.clearfix{
+    clear: both;
 }
